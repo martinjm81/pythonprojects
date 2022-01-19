@@ -5,6 +5,7 @@ from selenium.webdriver.remote.webdriver import WebDriver as RemoteWebDriver
 import re
 from unicodedata import normalize
 
+browser = webdriver.Chrome(executable_path = './driver/chromedrive.exe')
 filepath = './resource\whatsapp_session.txt'
 driver = webdriver
 
