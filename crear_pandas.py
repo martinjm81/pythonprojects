@@ -1,5 +1,8 @@
 import pandas as pd
 column = ["mariya", "Batman", "Spongebob"]
+data = pd.DataFrame(titled_columns)
+print(data)
+
 titled_columns = {"name": column, 
                 "height": [1.67, 1.9, 0.25],
                 "weight": [54,100,1]}
