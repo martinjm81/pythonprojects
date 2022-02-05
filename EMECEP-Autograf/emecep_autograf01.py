@@ -1,0 +1,6 @@
+variable = input("Indique el nombre de la variable: ")
+año0= input("Indique el año de inicio: ")
+mes0= input("Indique el mes de inicio (#): ")
+añoT= input("Indique el año de fin: ")
+mesT= input("Indique el mes de fin (#): ")
+print("La variable es ", variable,"desde ", año0, "m", mes0, "hasta el", añoT, "m", mesT)
